@@ -1,0 +1,31 @@
+Name = "Dzonder's mod Layer 1";
+Version = 0.1;
+Author = "dzonder 2016";
+KLL = 0.3c;
+
+# Toggle LCD backlight
+U"Z" : LCDMarkerToggle( 3, 2 );
+
+# Screen next/prev window, new window
+U"Function5" : U"LCtrl" + U"A", U"N";
+U"Function4" : U"LCtrl" + U"A", U"P";
+U"F" : U"LCtrl" + U"A", U"C";
+
+# Still capslock sometimes is useful...
+U"Backslash" : U"Capslock" + LCDMarkerToggle( 0, 2 ) + LCDLayerDisplay();
+
+# Ubuntu screen lock
+U"Esc" : U"LCtrl" + U"LAlt" + U"L";
+
+# Media controls
+U"W" : CONS"Stop";
+U"S" : CONS"PausePlay";
+U"E" : CONS"ScanPreviousTrack";
+U"D" : CONS"ScanNextTrack";
+U"R" : CONS"Mute";
+U"Q" : CONS"VolumeDown";
+U"A" : CONS"VolumeUp";
+
+# Display brightness
+U"T" : CONS"BrightnessDecrement";
+U"G" : CONS"BrightnessIncrement";

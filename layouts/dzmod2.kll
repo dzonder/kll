@@ -1,0 +1,7 @@
+Name = "Dzonder's mod Layer 2";
+Version = 0.1;
+Author = "dzonder 2016";
+KLL = 0.3c;
+
+U"Equals"  : flashMode();
+U"Minus"  : flashMode();

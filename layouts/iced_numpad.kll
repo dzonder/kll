@@ -6,9 +6,6 @@ KLL = 0.3c;
 # Modified Date
 Date = 2015-08-21;
 
-# Top Row - Left
-U"Equals" : flashMode();
-
 # Top Row - Right
 U"7" : U"Numlock";
 U"8" : U"Keypad Slash";

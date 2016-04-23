@@ -1,0 +1,22 @@
+Name = "Dzonder's mod Layer 0";
+Version = 0.1;
+Author = "dzonder 2016";
+KLL = 0.3c;
+
+# Screen switch window
+U"Backslash" : U"LCtrl" + U"A", U"LCtrl" + U"A";
+
+# Chrome/Safari tab switching
+U"Function5" : U"LCtrl" + U"Tab";
+U"Function4" : U"LCtrl" + U"LShift" + U"Tab";
+
+# Swap Delete with Space
+U"Delete" : U"Space";
+U"Space" : U"Delete";
+
+# Using only Function 1 and 2
+U"Function1" : U"Function2";
+U"Function2" : U"Function1";
+U"Function3" : U"Backslash";
+U"Function6" : U"Lock2";
+U"Function7" : U"Function1";
